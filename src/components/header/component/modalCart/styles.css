@@ -1,0 +1,47 @@
+.dropdown_cart_item {
+  position: absolute;
+  font-size: 0.9rem;
+  right: 0px;
+  will-change: transform;
+  margin: 0;
+  padding: 0.5rem 0;
+  border: 1px solid #ccc;
+  border-radius: 1px;
+  line-height: 1;
+  box-shadow: 0 5px 25px 0 rgb(123 123 123 / 15%);
+  background-color: rgb(255, 255, 255);
+  right: 1rem;
+  min-width: 330px;
+}
+.dropdown_cart_item__group_header {
+  padding: 5px;
+  text-align: center;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+}
+.dropdown_cart_item__group_header h3 {
+  margin: 0;
+  color: rgba(0, 0, 0, 0.7);
+}
+.cart_item .subtotal_text {
+  color: rgba(0, 0, 0, 0.5);
+}
+.cart_item .subtotal_amount {
+  color: rgba(0, 0, 0, 0.5);
+}
+.cart_info .cart_info_link {
+  color: #fff;
+  font-size: 13px;
+  border-radius: 3px;
+  border: 1px solid transparent;
+}
+.btn:not(:disabled):not(.disabled) {
+  cursor: pointer;
+}
+
+.cart_info_link:hover {
+  box-shadow: 0 3px 10px #929292;
+  border-color: #f79f8e;
+  transform: translateY(-3px);
+  -webkit-transform: translateY(-3px);
+  -ms-webkit-transform: translateY(-3px);
+}

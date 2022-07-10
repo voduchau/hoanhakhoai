@@ -1,0 +1,22 @@
+.side-user-menu li svg {
+  opacity: 0.6;
+  margin-right: 8px;
+  color: #5a5a5a;
+  width: 13px;
+  height: 13px;
+}
+.side-user-menu li {
+  display: flex;
+  align-items: center;
+}
+.side-menu-list ul li .badge {
+    border-radius: 8px;
+    color: #fff;
+    min-width: 20px;
+    height: 13px;
+    line-height: 12px;
+    padding: 0;
+    position: relative;
+    top: -4px;
+    font-size: 10px;
+}

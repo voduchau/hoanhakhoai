@@ -1,0 +1,34 @@
+.navbar_wrap_search_bar button {
+  width: 48px;
+  border: 0;
+  padding: 0;
+  border-radius: 0 3px 3px 0;
+  height: 40px;
+  color: #fff;
+  font-size: 26px;
+  padding-left: 11px;
+  padding-right: 11px;
+}
+.category {
+  position: relative;
+  border: 1px solid #cbcbcb;
+  max-height: 40px;
+  padding: 0 0.75rem;
+  min-width: 200px;
+}
+.select-hidden-accessible {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+.select-selection__rendered {
+  color: rgba(0, 0, 0, 0.4);
+  line-height: 1.25;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
