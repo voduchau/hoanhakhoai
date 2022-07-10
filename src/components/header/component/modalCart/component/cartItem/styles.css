@@ -1,0 +1,37 @@
+.cart_item {
+    padding: 5px 15px;
+    border-bottom: 1px solid rgba(0,0,0,.05);
+}
+.cart_item .dc-image {
+    display: inline-block;
+    width: 70px;
+}
+.cart_item .dc-content {
+    padding-left: 1.5rem;
+    width: calc(100% - 70px);
+}
+.cart_item .dc-product-name {
+    text-transform: capitalize;
+}
+.cart_item .dc-quantity {
+    font-size: .75rem;
+    color: rgba(0,0,0,.5);
+    padding-right: 0.5rem;
+}
+.cart_item .dc-price {
+    font-size: .75rem;
+    color: rgba(0,0,0,.5);
+    padding-right: 0.5rem;
+}
+.cart_item .dc-actions button {
+    background: rgba(0,0,0,.1);
+    color: rgba(0,0,0,.5);
+    border: 0;
+    border-radius: 50%;
+    width: 16px;
+    height: 16px;
+    font-size: .5rem;
+    padding: 0;
+    margin: 0;
+    cursor: pointer;
+}

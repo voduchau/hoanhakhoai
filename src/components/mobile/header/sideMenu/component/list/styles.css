@@ -1,0 +1,25 @@
+.sidebar-widget-title span {
+  background: #fff;
+  text-transform: uppercase;
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.2em;
+  position: relative;
+  padding: 8px;
+  color: #dadada;
+  display: inline-block;
+  /* padding: 0 1em; */
+}
+
+.sidebar-widget-title::after {
+  top: 50%;
+  width: 95%;
+  position: relative;
+  top: 50%;
+  width: 50%;
+  border-top: 1px solid transparent;
+  border-top-color: #eee;
+  border-bottom: 0;
+  transform: translateY(50%);
+  content: "";
+}
