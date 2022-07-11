@@ -3,8 +3,8 @@ import "./styles.css";
 
 const HeaderLogo = ({ toggleSideMenu }) => {
   return (
-    <div className="pb-3 sm:py-2 flex items-center">
-      <div className="sm:hidden py-1 mr-4" onClick={toggleSideMenu}>
+    <div className="pb-3 sm:py-0 flex items-center">
+      <div className="block xl:hidden py-1 mr-4" onClick={toggleSideMenu}>
         <a href="#">
           <div className="hamburger-icon">
             <span></span>

@@ -5,7 +5,7 @@ import "./styles.css";
 
 const IconSearchMobile = ({ handleClickSearchMobile }) => {
   return (
-    <div className="flex items-center px-3 sm:hidden">
+    <div className="flex items-center px-3 xl:hidden">
       <div className="nav-search-box">
         <a href="#" onClick={handleClickSearchMobile} className="nav-box-link">
           <FontAwesomeIcon icon={faMagnifyingGlass} />

@@ -16,7 +16,7 @@ const HeaderDelivery = () => {
       <div className="navbar_wrap_devliver--location">
         <select
           id="deliver_to"
-          className="text-right border-0 sm:h-10 sm:border sm:border-solid sm:border-border-input sm:text-left"
+          className="text-right border-0 xl:h-10 xl:border xl:border-solid xl:border-border-input xl:text-left"
         >
           {LOCATIONS.map((location) => (
             <option key={location.value} value={location.value}>

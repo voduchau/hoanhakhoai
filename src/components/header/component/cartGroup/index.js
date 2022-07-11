@@ -26,13 +26,13 @@ const GroupCartHeader = () => {
         aria-expanded="false"
       >
         <FontAwesomeIcon
-          className="pr-2 text-lg sm:text-2xl"
+          className="pr-2 text-lg md:text-2xl"
           icon={faCartShopping}
         />
-        <span className="cart_group_header_link--text hidden sm:inline">
+        <span className="cart_group_header_link--text hidden md:inline">
           Giỏ hàng
         </span>
-        <span className="cart_group_header_link--count bg-primary sm:left-10 sm:h-4 sm:px-2.5">
+        <span className="cart_group_header_link--count sm:text-xs bg-primary md:left-10 sm:h-4 md:px-2.5">
           {cart.length}
         </span>
       </a>

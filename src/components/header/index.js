@@ -22,7 +22,7 @@ const Header = () => {
 
   return (
     <div
-      className="navbar_wrap items-center justify-center sm:shadow-none sm:py-5 sm:relative md:flex xl:w-1200"
+      className="navbar_wrap items-center justify-center xl:shadow-none xl:py-5 sm:relative xl:flex xl:w-1200"
       id="header"
     >
       <SideMenu openSideMenu={openSideMenu} setOpenSideMenu={setOpenSideMenu} />
@@ -36,7 +36,7 @@ const Header = () => {
           setOpenCategory={setOpenCategory}
         />
       </div>
-      <div className="flex absolute right-0 top-6 sm:relative sm:top-0">
+      <div className="flex absolute right-0 top-6 xl:relative xl:top-0">
         <IconSearchMobile handleClickSearchMobile={handleClickSearchMobile} />
         <GroupCartHeader openCategory={openCategory} />
       </div>

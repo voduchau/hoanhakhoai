@@ -24,7 +24,7 @@ const SearchBox = ({
     <div className="navbar_wrap_search_bar flex items-center px-1">
       <FontAwesomeIcon
         onClick={handleCloseSearch}
-        className="mb_arrow_left_icon sm:hidden"
+        className="mb_arrow_left_icon top-0 sm:top-3 xl:hidden"
         icon={faArrowLeftLong}
       />
       <form
@@ -32,17 +32,17 @@ const SearchBox = ({
         className="flex-1"
         method="GET"
       >
-        <div className="sm:flex">
+        <div className="xl:flex">
           <input
             type="text"
             aria-label="Search"
-            className="search-input sm:w-52 absolute sm:relative sm:flex sm:opacity-100 sm:visible sm:border sm:border-solid sm:border-border-input sm:p-0 sm:pl-3.5 sm:ml-0"
+            className="search-input absolute top-0 sm:top-3 xl:top-0 xl:flex xl:w-52 xl:relative xl:opacity-100 xl:visible xl:border xl:border-solid xl:border-border-input xl:p-0 xl:pl-3.5 xl:ml-0"
             placeholder="Tôi muốn tìm ..."
             autoComplete="off"
           />
           <div
             ref={categoryRef}
-            className="category hidden sm:flex items-center"
+            className="category hidden sm:hidden items-center xl:flex"
             onClick={handleClickCategory}
           >
             <select
@@ -75,7 +75,7 @@ const SearchBox = ({
             />
           </div>
           <button
-            className="bg-primary btn-search hidden sm:block"
+            className="bg-primary btn-search hidden xl:block"
             type="submit"
             disabled="disabled"
           >

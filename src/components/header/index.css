@@ -99,8 +99,6 @@ input:focus {
   visibility: visible;
   transition: opacity 0.3s;
   padding: 20px 15px;
-  left: 0;
-  top: 0;
 }
 .search-input {
   width: 100%;
