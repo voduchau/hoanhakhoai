@@ -7,6 +7,7 @@ module.exports = {
         primary: "#F79F8E",
         "border-input": "#cbcbcb",
         "side-menu": "#5a5a5a",
+        "top-navbar": "#f8f8f8"
       },
       backgroundImage: {
         USER_IMAGE:
