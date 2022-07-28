@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "webpack-dev-server --mode development --open --hot",
+    "start": "webpack-dev-server --mode development --open --hot --host 0.0.0.0",
     "build": "webpack --mode production",
     "build-css": "npx tailwindcss -i ./src/App.css -o ./dist/output.css --watch"
   },
@@ -17,7 +17,9 @@
     "@fortawesome/react-fontawesome": "^0.1.18",
     "babel-preset-es2015": "^6.24.1",
     "react": "^18.1.0",
-    "react-dom": "^18.1.0"
+    "react-dom": "^18.1.0",
+    "react-slick": "^0.29.0",
+    "slick-carousel": "^1.8.1"
   },
   "devDependencies": {
     "@babel/core": "^7.18.0",

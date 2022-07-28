@@ -25,7 +25,7 @@ const Header = () => {
     <>
       <TopNavBar />
       <div
-        className="navbar_wrap items-center justify-center sm:self-center xl:shadow-none xl:py-5 sm:relative xl:flex xl:w-1200"
+        className="navbar_wrap items-center justify-center sm:self-center xl:shadow-none xl:w-full xl:py-5 sm:relative xl:flex"
         id="header"
       >
         <SideMenu

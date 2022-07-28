@@ -1,0 +1,9 @@
+.section-title-1:before {
+    content: "";
+    position: absolute;
+    width: 150px;
+    height: 2px;
+    bottom: -1px;
+    left: 0;
+    background-color:#F79F8E
+}
